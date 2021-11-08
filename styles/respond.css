@@ -1,0 +1,15 @@
+.pic-flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 5em;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:800px) {
+    .pic-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5em;
+    }
+}
+::-webkit-scrollbar 

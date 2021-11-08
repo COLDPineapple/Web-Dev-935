@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+body {
+    font-family: "Source Sans Pro";
+    scroll-snap-type: y mandatory;
+}
+.bg {
+    width: 100%;
+    position: fixed;
+    top: -0.5em;
+    transform: scale(1);
+    z-index: -1;
+}
+.pic-flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 5em;
+    flex-wrap: wrap;
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+    width: 100%;
+    /* overflow: hidden; */
+}
+.pic-flex a:hover {
+    transform: scale(1.05);
+    border-radius: 2em;
+    margin: 1wh;
+    opacity: 1;
+    z-index: 100;
+}
+
+@media screen and (max-width:800px) {
+    .pic-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5em;
+    }
+}
+.pic-flex a{
+    border: solid #333 1em;
+    border-radius: 2em;
+    background: #333;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    height: fit-content;
+    margin: 2em;
+
+}
+p {
+    text-transform: capitalize;
+}
+a{
+   position: relative;
+}
+
+.img2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s;
+    width: 100%;
+}
+.img2:hover {
+    opacity: 0;
+}
