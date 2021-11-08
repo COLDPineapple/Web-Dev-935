@@ -16,15 +16,13 @@ body {
     z-index: -1;
 }
 .pic-flex {
-    display: flex;
-    justify-content: space-around;
-    gap: 5em;
-    flex-wrap: wrap;
-    height: 100vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30%;
+    gap: 0.5em;
     scroll-snap-align: start;
     position: relative;
     width: 100%;
-    /* overflow: hidden; */
 }
 .pic-flex a:hover {
     transform: scale(1.05);
@@ -70,4 +68,7 @@ a{
 }
 .img2:hover {
     opacity: 0;
+}
+.img1 {
+    width: 100%;
 }
