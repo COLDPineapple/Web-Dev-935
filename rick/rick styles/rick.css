@@ -11,3 +11,7 @@ p{
     grid-template-columns: 1fr 1fr;
     width: 40%;
 }
+ul li{
+    font-size: 2em;
+    font-weight: 500;
+}
