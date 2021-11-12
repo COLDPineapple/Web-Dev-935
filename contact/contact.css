@@ -1,0 +1,25 @@
+fieldset, form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input,label{
+    display: block;
+}
+input{
+    display: block;
+}
+#people{
+    border: solid;
+    
+}
+.flex-people {
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    display: block;
+}
+h1 {
+    text-align: center;
+}
