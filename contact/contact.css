@@ -1,25 +1,15 @@
-fieldset, form{
+table, th, td {
+    border: 20px solid black;
+    border-radius:1px;
+    font-size:20px;
+}
+#gender{
+max-width: 200px;
+}
+#play{
+max-width: 400px;
+
+}
+header ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-input,label{
-    display: block;
-}
-input{
-    display: block;
-}
-#people{
-    border: solid;
-    
-}
-.flex-people {
-    display: flex;
-    justify-content: center;
-}
-.contact{
-    display: block;
-}
-h1 {
-    text-align: center;
 }
