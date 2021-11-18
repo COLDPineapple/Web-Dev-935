@@ -1,3 +1,6 @@
+*{
+    color: white;
+}
 body{
     background-color: #505251;
 }
@@ -5,5 +8,11 @@ th{
     text-align: left;
 }
 table{
-    border: solid black;
+    border: solid white;
 }
+.bg {
+    width: 100%;
+    position: fixed;
+    top: -0.5em;
+    transform: scale(1);
+    z-index: -1;
