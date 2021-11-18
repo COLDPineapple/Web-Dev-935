@@ -2,7 +2,9 @@
     color: white;
 }
 body{
-    background-color: #505251;
+     background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 th{
     text-align: left;
@@ -10,9 +12,9 @@ th{
 table{
     border: solid white;
 }
-.bg {
-    width: 100%;
-    position: fixed;
-    top: -0.5em;
-    transform: scale(1);
-    z-index: -1;
+.life{
+    text-align: center;
+}
+h1{
+text-shadow: 3px 5px 2px #474747;
+}
