@@ -77,3 +77,15 @@ h1{
     font-size:  2em;
     
 }
+.contacts{
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+    
+.contacts:hover{
+    color: blue;
+}
