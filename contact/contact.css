@@ -2,9 +2,12 @@
 *{
      font-family: "Source Sans Pro";
     font-weight: 600;
+    color: white;
 }
 body{
-    background-color: #505251;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #gender{
 max-width: 200px;
@@ -27,4 +30,9 @@ body{
 .flex input{
     text-align: center;
     align-items: center;
+}button{
+    color: black;
+}
+h1{
+text-shadow: 3px 5px 2px #474747;
 }

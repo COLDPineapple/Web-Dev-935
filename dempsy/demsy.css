@@ -26,4 +26,14 @@ th{
 table{
     border: solid white;
 }
+.life{
+    text-align: center;
+}
+h1{
+text-shadow: 3px 5px 2px #474747;
+}
+th {
+    border: solid white;
+}
+
 
